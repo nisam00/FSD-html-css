@@ -1,84 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Heading 1</h1>
-  
+    <style>
+      /* h3 {
+        color: green;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             }
+             #head{
+              color: blueviolet;
+             }
+             .class1{
+              color: cyan;
+              font-family: 'Times New Roman', Times, serif;
+             } */
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="color: red">Heading 1</h1>
+    <h2 style="color: yellow">Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4 id="head">Heading 4</h4>
+    <h5 class="class1">CLASS TEST 5</h5>
+    <h6>Heading 6</h6>
 
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+    <p class="class1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris.
     </p>
-    <img src="https://i.pinimg.com/736x/25/68/b7/2568b72212af388a17a25dbc21bc4196.jpg" width="250" height="400">
-    <br>
+    <img
+      src="https://i.pinimg.com/736x/25/68/b7/2568b72212af388a17a25dbc21bc4196.jpg"
+      width="250"
+      height="400"
+    />
+    <img src="Images/sample2.jpg" width="250" height="400" />
+    <br />
     <a href="Register.html" target="_blank">Register now </a>
 
-
- <ol type="A">
-
-    <li>macbook
-        <li>
-            <ol>
-                <li>CSS</li>
-               <li>JavaScript</li>
-            </ol>
-        </li>
-    
+    <ol type="A">
+      <li>macbook</li>
+      <li>
+        <ol>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </li>
     </ol>
 
-     <ul>
-        <li>Apple</li>
-        <li>Orange</li>
-        <li>Mango</li>
-        <li>Banana</li>
+    <ul>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Mango</li>
+      <li>Banana</li>
     </ul>
 
-
     <dl>
-        <dt>Laptops</dt>
-        <dd>HP</dd>
-        <dd>MAC</dd>
-        <dd>DELL</dd>
+      <dt>Laptops</dt>
+      <dd>HP</dd>
+      <dd>MAC</dd>
+      <dd>DELL</dd>
 
-        <dt>Laptops</dt>
-        <dd>HP</dd>
-        <dd>MAC</dd>
-        <dd>DELL</dd>
-
+      <dt>Laptops</dt>
+      <dd>HP</dd>
+      <dd>MAC</dd>
+      <dd>DELL</dd>
     </dl>
 
-     <table border="2">
+    <table border="2">
+      <tr>
+        <th colspan="2">Head 1</th>
+      </tr>
 
-        <tr>
-   
-            <th colspan="2">Head 1</th>
-        </tr>
+      <tr>
+        <td>Row 1 Column 1</td>
+        <td rowspan="2">Row 2 Column 2</td>
+      </tr>
 
-        <tr>
-            <td>Row 1 Column 1</td>
-            <td rowspan="2">Row 2 Column 2</td>
-        </tr>
-
-        <tr>
-            <td>Row 1 Column 2</td>
-          
-        </tr>
-
+      <tr>
+        <td>Row 1 Column 2</td>
+      </tr>
     </table>
-   
-    
-<section>
 
-</section>  
-<nav></nav>
-<aside></aside>  
-<article></article>        
+    <section></section>
+    <nav></nav>
+    <aside></aside>
+    <article></article>
+    <br />
+    <br />
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name" />
 
+      <br /><br />
 
-</body>
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" />
+
+      <br /><br />
+
+      <label>Password</label>
+      <input type="password" placeholder="Enter your password" />
+
+      <br /><br />
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter your phone number" />
+
+      <br /><br />
+
+      <label>Date of Birth</label>
+      <input type="date" />
+
+      <br /><br />
+
+      <input type="radio" name="gender" value="Male" />
+      <label>Male</label>
+
+      <input type="radio" name="gender" value="Female" />
+      <label>Female</label>
+
+      <input type="radio" name="gender" value="Other" />
+      <label>Other</label>
+    </form>
+  </body>
 </html>
