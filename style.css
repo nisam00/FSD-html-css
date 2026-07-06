@@ -1,17 +1,62 @@
- h3 {
-        color: green;
-        font-size: larger;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      p {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        width: 400px;
-    text-align: justify;
-             }
-             #head{
-              color: blueviolet;
-             }
-             .class1{
-              color: rgb(164, 11, 90);
-              font-family: 'Times New Roman', Times, serif;
-             }
+h3 {
+  color: green;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  width: 400px;
+  text-align: justify;
+}
+#head {
+  color: blueviolet;
+}
+.class1 {
+  color: rgb(164, 11, 90);
+  font-family: "Times New Roman", Times, serif;
+}
+.table1 {
+  background-color: #f0edcc;
+  text-decoration-color: rgb(10, 117, 211);
+  color: #02343f;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  width: 500px;
+}
+.th {
+  padding: 1cap;
+  color: #990011;
+}
+.card {
+  width: 250px;
+  margin: 15px;
+  background: #f6ecec;
+  border: 3px solid #6a7282;
+  border-radius: 55px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(133, 40, 40, 0.1);
+  font-family: Arial, sans-serif;
+  height: fit-content;
+}
+.card-details {
+  width: 100%;
+  text-align: justify;
+  font-family: "Yuyu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.img {
+  width: 100%;
+  border: 1px;
+  border-radius: 65px;
+}
+.card-title {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
