@@ -60,3 +60,168 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+/* css positioning */
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: #02343f;
+  position: relative;
+}
+.child-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #e80a0a;
+  position: absolute;
+  z-index: 2;
+  right: 0%;
+  bottom: 0%; */
+}
+.child-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #2e0fde;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+}
+/* flexbox */
+.home{
+  display:flex;
+  /* flex-direction: column; */
+  background-color: #b1afbd;
+  justify-content: center;
+  /* justify-content: end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 50px;
+  height: 400px;
+}
+.card-1{
+  width: 200px;
+  height: 100px;
+  background-color: #990011;
+  border-radius: 50px;
+}
+.card-2{
+  width: 200px;
+  height: 100px;
+  background-color:#204ea8 ;
+  border-radius: 50px;
+}
+.card-3{
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+/* nav menu */
+header{
+  display: flex;
+  justify-content: center;
+  background-color: #b1afbd;
+ nav{
+  display: flex;
+
+  a{
+    text-decoration: none;
+    color: #990011;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s  ease-in-out;
+    &:hover{
+      background-color: aqua;
+      color: #150505;
+      border-radius:1px;
+    }
+  }
+ }
+
+
+}
+
+/* css-grid */
+.container{
+  display:flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-rows: ; */
+  
+  justify-content:center;
+  gap:50px ;
+  margin-top: 100px;
+  
+  .card-item{
+    border:1px solid black;
+    
+    
+  }
+}
+
+
+/* .herocontainer{
+  flux:1;
+  
+  margin-left: 70px; */ */
+  /* background-color: #990011; */
+  /* width:100px;
+  height:100px; */
+
+}
+/* .image{
+  border:5px;
+  border-color: aliceblue;
+  border-radius:15px;
+  width:100px;
+  height:100px;
+  margin-left:70%;
+  
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css-media-query
+.css-media-query{
+
+  background-color:black;
+  width:100%;
+  height:200px;
+}
+
+@media (max-width:768px){
+
+  .css-media-query{
+    background-color: #990011;
+    /* height:100px; */
+    
+  /* }
+}
+
+@media (max-width:480px){
+
+  .css-media-query{
+    background-color: #3e921d;
+    /* height:100px; */
+    /* border-radius:30px; */
+    
+    
+  }
+}
+
+/* bootstrap override class  */
+/* .bgcolor{
+
+  background:rgb(55, 0, 255);
+} */ */ */
+
